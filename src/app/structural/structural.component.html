@@ -1,0 +1,6 @@
+<p>Hello!</p>
+<button (click)="toggleCustomer()">Toggle isCustomer</button>
+<p *ngIf="isCustomer">Customer orders are: ....</p>
+<ul>
+    <li *ngFor="let customer of customers">{{customer}}</li>
+</ul>
